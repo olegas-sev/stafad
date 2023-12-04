@@ -1,0 +1,343 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.stafad-header {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #0056b3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid blue;
+  /* Add a 1px solid black line at the bottom */
+  margin: 0;
+  /* Remove default margin */
+  padding: 10px 0;
+  /* Add padding for better spacing */
+}
+
+.stafad-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.stafad-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  /* Remove default margin */
+  padding: 0;
+  margin-right: 20px;
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+.stafad-nav a {
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+}
+
+.post-ad-button {
+  padding: 10px 20px;
+  background-color: orange;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.post-ad-button a {
+  color: white;
+}
+
+.post-ad-button:hover {
+  background-color: #ffd580;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.3s ease;
+  /* Smooth sliding animation */
+
+  flex: 0 0 auto;
+  margin-right: 20px;
+  /* Adjust the spacing between category items */
+  /* Add other styling properties for category items */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.listing {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.listing img {
+  width: 10%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.listing h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.listing p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #005cbf;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.categories {
+  width: 100%;
+  overflow: hidden;
+  height: 100px;
+  /* Adjust the height as needed */
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  /* Enable smooth scrolling on iOS devices */
+
+  justify-content: center;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.categories li {
+  margin: 0;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.categories a {
+  display: block;
+  width: 60px;
+  /* Ändra bredden på bilden efter ditt behov */
+  height: 60px;
+  /* Ändra höjden på bilden efter ditt behov */
+  /* border: 2px solid white; */
+  /* Vit cirkulär kontur (outline) */
+  border-radius: 50%;
+  /* Gör bilden cirkulär */
+  overflow: hidden;
+  /* Döljer eventuell bildöverlappning */
+}
+
+.categories li:hover {
+  background-color: lightskyblue;
+}
+
+.categories svg {
+  width: 100%;
+  /* Gör bilden fylla cirkeln */
+  height: 100%;
+  /* Gör bilden fylla cirkeln */
+  object-fit: cover;
+  /* Behåller bildens proportioner inom cirkeln */
+}
+
+.search-block {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.search-block label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.search-block input[type='text'],
+.search-block select,
+.search-block button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #f4f4f4;
+  border: 1px solid black;
+  /* Add a black border */
+  border-radius: 5px;
+}
+
+.search-block button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.search-block button:hover {
+  background-color: #0056b3;
+}
+
+button#showAboutUs {
+  background: none;
+  border: none;
+  color: #0073e6;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.popup-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #333;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.close-button {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+footer {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.close-button:hover {
+  color: red;
+}
+
+a.button {
+  background: none;
+  border: none;
+  color: #0073e6;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Styles for visited links */
+a.button:visited {
+  color: #0073e6;
+  /* Or your desired color for visited links */
+}
+
+@media only screen and (max-width: 844px) {
+  .search-block {
+    text-align: center;
+    /* Center the contents horizontally */
+    margin: 0 auto;
+    /* Center the block itself horizontally */
+    /* Add additional styling if needed */
+    max-width: 85%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* CSS styles for screens less than or equal to 767px (iPhone) */
+}
+
+/* iPhones in portrait */
+@media only screen and (max-device-width: 812px) and (orientation: portrait) {
+  /* CSS styles specific to iPhones in portrait mode */
+}
